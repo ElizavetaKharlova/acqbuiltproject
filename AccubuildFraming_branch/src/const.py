@@ -6,7 +6,7 @@ LEFT_CAM  = 'Left'
 LEFT_CAM_CAL_DIR = './calibration/' + LEFT_CAM + '/'
 RIGHT_CAM_CAL_DIR = './calibration/' + RIGHT_CAM + '/'
 
-CHESSBOARD_DIMS = (7, 6) 
+CHESSBOARD_DIMS = (7, 6)
 CHESSBOARD_EXT = '.png'
 
 CORNERS_TERM = (cv2.TERM_CRITERIA_EPS + cv2.TERM_CRITERIA_COUNT, 30, 0.1)
